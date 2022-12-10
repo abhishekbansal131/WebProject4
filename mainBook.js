@@ -1,6 +1,6 @@
 function getBook(filename, displayName) {
     let currentBook = "";
-    let url = "books/" + filename;
+    let url = "./books/" + filename;
     document.getElementById("fileName").innerHTML = displayName;
     document.getElementById("searchstat").innerHTML = "";
     document.getElementById("keyword").value = "";
