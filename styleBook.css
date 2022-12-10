@@ -1,0 +1,37 @@
+
+body {
+    background: #2980b9;
+    background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);
+    background: linear-gradient(to right, #12db00, #29b954);
+}
+.play{
+    width: 82%;
+    height: 350px;
+    background-image: url(https://images.unsplash.com/photo-1515343480029-43cdfe6b6aae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fGxhcHRvcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  .centered {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+img {
+    padding: 15px;
+}
+
+.boxcss {
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.scrolling {
+    overflow-y: auto;
+    height: 550px;
+    float: left;
+    padding: 1rem;
+}
