@@ -10,21 +10,21 @@
     
   document.getElementById('try').innerHTML = `Try's Remaining: ` + Math.ceil(c/2);
   }
-  const cards = document.querySelectorAll('.memory-card');
+  const cards = document.querySelectorAll('.image_card');
 
   let hasFlippedCard = false;
   let lockBoard = false;
   let firstCard, secondCard;
-//   if(c==0){
-//     alert('game over');
-//     location.reload();
-//     c=6;
-//     document.getElementById('try').innerHTML = `Try's Remaining: ` + Math.ceil(c/2);
-//   }
-//   else{
+  if(c==0){
+    alert('game over');
+    location.reload();
+    c=6;
+    document.getElementById('try').innerHTML = `Try's Remaining: ` + Math.ceil(c/2);
+  }
+  else{
 
-//   document.getElementById('try').innerHTML = `Try's Remaining: ` + Math.ceil(c/2);
-// }
+  document.getElementById('try').innerHTML = `Try's Remaining: ` + Math.ceil(c/2);
+}
 
 
   function flipCard() {
